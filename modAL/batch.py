@@ -9,9 +9,9 @@ import scipy.sparse as sp
 from sklearn.metrics.pairwise import (pairwise_distances,
                                       pairwise_distances_argmin_min)
 
-from modAL.models.base import BaseCommittee, BaseLearner
-from modAL.uncertainty import classifier_uncertainty
-from modAL.utils.data import data_shape, data_vstack, modALinput
+from modal.modAL.models.base import BaseCommittee, BaseLearner
+from modal.modAL.uncertainty import classifier_uncertainty
+from modal.modAL.utils.data import data_shape, data_vstack, modALinput
 
 
 def select_cold_start_instance(X: modALinput,

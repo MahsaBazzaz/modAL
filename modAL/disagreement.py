@@ -8,9 +8,9 @@ from scipy.stats import entropy
 from sklearn.base import BaseEstimator
 from sklearn.exceptions import NotFittedError
 
-from modAL.models.base import BaseCommittee
-from modAL.utils.data import modALinput
-from modAL.utils.selection import multi_argmax, shuffled_argmax
+from modal.modAL.models.base import BaseCommittee
+from modal.modAL.utils.data import modALinput
+from modal.modAL.utils.selection import multi_argmax, shuffled_argmax
 
 
 def vote_entropy(committee: BaseCommittee, X: modALinput, **predict_proba_kwargs) -> np.ndarray:

@@ -1,12 +1,12 @@
 from typing import Any, Callable, List, Optional, Tuple
 
 import numpy as np
-from modAL.acquisition import max_EI
-from modAL.disagreement import max_std_sampling, vote_entropy_sampling
-from modAL.models.base import BaseCommittee, BaseLearner
-from modAL.uncertainty import uncertainty_sampling
-from modAL.utils.data import data_vstack, modALinput, retrieve_rows
-from modAL.utils.validation import check_class_labels, check_class_proba
+from modal.modAL.acquisition import max_EI
+from modal.modAL.disagreement import max_std_sampling, vote_entropy_sampling
+from modal.modAL.models.base import BaseCommittee, BaseLearner
+from modal.modAL.uncertainty import uncertainty_sampling
+from modal.modAL.utils.data import data_vstack, modALinput, retrieve_rows
+from modal.modAL.utils.validation import check_class_labels, check_class_proba
 from sklearn.base import BaseEstimator
 from sklearn.metrics import accuracy_score
 from sklearn.utils import check_X_y

@@ -7,8 +7,8 @@ from scipy.stats import entropy
 from sklearn.base import BaseEstimator
 from sklearn.exceptions import NotFittedError
 
-from modAL.utils.data import modALinput
-from modAL.utils.selection import (multi_argmax, multi_argmin, shuffled_argmax,
+from modal.modAL.utils.data import modALinput
+from modal.modAL.utils.selection import (multi_argmax, multi_argmin, shuffled_argmax,
                                    shuffled_argmin)
 
 

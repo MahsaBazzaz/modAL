@@ -7,9 +7,9 @@ from scipy.special import ndtr
 from scipy.stats import norm
 from sklearn.exceptions import NotFittedError
 
-from modAL.models.base import BaseLearner
-from modAL.utils.data import modALinput
-from modAL.utils.selection import multi_argmax
+from modal.modAL.models.base import BaseLearner
+from modal.modAL.utils.data import modALinput
+from modal.modAL.utils.selection import multi_argmax
 
 
 def PI(mean, std, max_val, tradeoff):
